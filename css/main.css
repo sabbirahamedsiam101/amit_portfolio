@@ -1927,10 +1927,12 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/hero-pic.jpg);
+  /* background-image: url(../images/hero-pic.jpg); */
+  background-image: url(../images/me_2.png);
+  /* filter: brightness(1.2) saturate(0.8) drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.8));  */
   background-size: cover;
   position: absolute;
-  top: 20%;
+  top: 10%;
   right: 0;
   bottom: 0;
   left: 50%;
